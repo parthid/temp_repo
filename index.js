@@ -26,8 +26,7 @@ const http = require('http');
 // const base = path.basename(filePath);
 // console.log(base);
 
-// const absolutePath = path.resolve(__dirname, 'test.txt');
-// console.log(absolutePath);
+// 
 
 // const first = readFileSync('test.txt','utf8');
 // const second = readFileSync('test1.txt','utf8');
@@ -61,7 +60,7 @@ const http = require('http');
 
 // const server = http.createServer((req, res) => {
 //     if (req.url === '/') {
-//         res.end("WELCOME TO HOME PAGE");
+//         res.end("WELCOME TO HOME PAGE :D");
 //     }
 //     // res.write('WELCOME TO HOME PAGE');
 //     // res.end();
@@ -84,3 +83,4 @@ const _ = require('lodash')
 const items = [1,[2,[3,[4]]]]
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+console.log("HELLO PEOPLE!!! :DP");
